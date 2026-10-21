@@ -1,6 +1,19 @@
+import requests
+import teste
+
 def main():
-    print("Hello from learn-python!")
+    print("Aqui é a main archive!")
 
+    print("Welcome to this main archive")
 
-if __name__ == "__main__":
+    meu_nome = "Julian Casasblancas"
+
+    name_upper = teste.upper_case_name(meu_nome)
+    print(f"Nome maiusculo {name_upper}")
+
+    print("dunder __name__ no main.py é: ", __name__)
+
+if __name__ == '__main__':
     main()
+
+
